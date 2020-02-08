@@ -1,0 +1,16 @@
+.ul {
+  display: flex;
+  padding-inline-start: 0px;
+}
+
+.li {
+  margin-right: 10px;
+  list-style: none;
+}
+
+.nav_link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000;
+}
