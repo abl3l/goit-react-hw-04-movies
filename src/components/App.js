@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import routes from '../Routes/Routes';
+import routes from '../routes/Routes';
 import Nav from './Nav/Nav';
 import MovieLoader from './Loader/Loader';
 

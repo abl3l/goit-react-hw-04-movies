@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import qs from 'query-string';
 import T from 'prop-types';
-import Searchbar from '../../components/Searchbar/Searchbar';
-import MovieList from '../../components/MovieList/MovieList';
+import Searchbar from '../../components/Searchbar/Searchbar.jsx';
+import MovieList from '../../components/MovieList/MovieList.jsx';
 import * as API from '../../services/Api';
 
 export default class MoviesPage extends Component {

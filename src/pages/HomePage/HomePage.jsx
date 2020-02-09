@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import * as API from '../../services/Api';
-import MovieList from '../../components/MovieList/MovieList';
+import MovieList from '../../components/MovieList/MovieList.jsx';
 
 export default class HomePage extends Component {
   state = {

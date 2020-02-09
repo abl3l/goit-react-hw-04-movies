@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CastList from '../../components/CastList/CastList';
+import CastList from '../../components/CastList/CastList.jsx';
 import * as API from '../../services/Api';
 
 const getIdFromProps = props => props.match.params.id;

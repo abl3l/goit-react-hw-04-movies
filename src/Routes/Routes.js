@@ -13,9 +13,11 @@ const MovieDetailsPage = lazy(() =>
 const MoviesPage = lazy(() =>
   import('../pages/MoviesPage/MoviesPage' /* webpackChunkName: "home-page" */),
 );
+
 const CastPage = lazy(() =>
   import('../pages/CastPage/CastPage' /* webpackChunkName: "home-page" */),
 );
+
 const ReviewsPage = lazy(() =>
   import(
     '../pages/ReviewsPage/ReviewsPage' /* webpackChunkName: "home-page" */

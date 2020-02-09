@@ -1,10 +1,10 @@
 import React, { Component, Suspense } from 'react';
 import { Route, NavLink } from 'react-router-dom';
 import T from 'prop-types';
-import MovieDetails from '../../components/MovieDetails/MovieDetails';
+import MovieDetails from '../../components/MovieDetails/MovieDetails.jsx';
 import * as API from '../../services/Api';
-import routes from '../../Routes/Routes';
-import MovieLoader from '../../components/Loader/Loader';
+import routes from '../../routes/Routes';
+import MovieLoader from '../../components/Loader/Loader.jsx';
 import styles from './MovieDetailsPage.module.css';
 
 const getIdFromProps = props => props.match.params.id;

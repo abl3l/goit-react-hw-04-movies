@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import routes from '../../Routes/Routes';
+import routes from '../../routes/Routes';
 import styles from './Nav.module.css';
 
 const activeStyle = { color: 'palevioletred' };

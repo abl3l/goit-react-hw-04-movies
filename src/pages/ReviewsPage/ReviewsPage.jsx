@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReviewsList from '../../components/ReviewsList/ReviewsList';
+import ReviewsList from '../../components/ReviewsList/ReviewsList.jsx';
 import * as API from '../../services/Api';
 
 const getIdFromProps = props => props.match.params.id;
